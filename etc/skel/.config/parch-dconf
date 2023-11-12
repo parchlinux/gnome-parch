@@ -1,0 +1,44 @@
+[/]
+command-history=['r']
+disabled-extensions=['window-list@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'dash-to-dock@micxgx.gmail.com']
+favorite-apps=['org.gnome.Calendar.desktop', 'org.gnome.Music.desktop', 'org.gnome.Nautilus.desktop', 'firefox.desktop', 'com.raggesilver.BlackBox.desktop']
+welcome-dialog-last-shown-version='45.1'
+
+[extensions/blur-my-shell/applications]
+blur=false
+
+[extensions/blur-my-shell/dash-to-dock]
+blur=false
+unblur-in-overview=true
+
+[extensions/blur-my-shell/panel]
+blur=false
+static-blur=true
+unblur-in-overview=true
+
+[extensions/dash-to-dock]
+animate-show-apps=true
+background-opacity=0.80000000000000004
+custom-theme-shrink=false
+dash-max-icon-size=40
+disable-overview-on-startup=true
+dock-position='LEFT'
+height-fraction=0.90000000000000002
+hide-tooltip=false
+hot-keys=true
+multi-monitor=true
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+show-apps-always-in-the-edge=true
+show-apps-at-top=false
+show-icons-emblems=false
+show-mounts=false
+show-mounts-only-mounted=false
+show-running=true
+
+[extensions/user-theme]
+name='Orchis-Light'
+
+[world-clocks]
+locations=@av []
