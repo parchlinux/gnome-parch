@@ -1,5 +1,8 @@
 #!/bin/sh
 dconf load /org/gnome/shell/ < /etc/skel/.config/parch-dconf
 sleep 1.5
+gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-dark
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+sleep 1.5
 
 notify-send "parch gnome settings Applied/Restored! 🔥"
