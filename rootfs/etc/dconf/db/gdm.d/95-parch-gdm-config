@@ -70,7 +70,7 @@ night-light-schedule-to=6.0
 #----- Login Screen ----
 [org/gnome/login-screen]
 #-----------------------
-logo='/etc/gdm-logo'
+logo='/etc/gdm/gdm-login-logo'
 banner-message-enable=false
 banner-message-text=''
 disable-restart-buttons=false
