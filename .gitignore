@@ -1,4 +1,1 @@
-src/
-pkg/
-*.tar.zst
-gnome-parch
+build
