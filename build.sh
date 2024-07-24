@@ -4,5 +4,5 @@ mkdir build
 cd rootfs
 zip -r ../build/rootfs.zip ./*
 cd ../build
-cp ../PKGBUILD .
+cp ../PKGBUILD ../gnome-parch.install .
 makepkg -sc
