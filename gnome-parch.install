@@ -1,0 +1,9 @@
+post_install(){
+    cp /usr/share/gnome-shell/gnome-shell-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gresource.old
+    mv /usr/share/gnome-shell/parch-gnome-shell-theme.gresource  /usr/share/gnome-shell/gnome-shell-theme.gresource 
+    chmod 544 ${pkgdir}/usr/share/gnome-shell/gnome-shell-theme.gresource
+}
+
+pre_remove(){
+    mv /usr/share/gnome-shell/gnome-shell-theme.gresource.old /usr/share/gnome-shell/gnome-shell-theme.gresource
+}
