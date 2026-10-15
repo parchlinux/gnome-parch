@@ -1,0 +1,10 @@
+#!/bin/sh
+sleep 1.5
+gnome-extensions enable ding@rastersoft.com
+gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
+gsettings set org.gnome.shell enabled-extensions "['ding@rastersoft.com', 'appindicatorsupport@rgcjonas.gmail.com']"
+gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-dark
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+sleep 1.5
+
+notify-send "parch gnome settings Applied/Restored! 🔥"
